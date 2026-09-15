@@ -10,3 +10,12 @@ if has_number == True:
     print('has number')
 else:
     print('no number')
+
+has_capital = False
+for letter in password:
+    if letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        has_capital = True
+if has_capital == True:
+    print('has capital')
+else:
+    print('no capital')
