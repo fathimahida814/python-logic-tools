@@ -1,0 +1,9 @@
+def main():
+    celcius = float(input("Temperature in celcius: "))
+    result = convert(celcius)
+    print(celcius,"degree celcius is", result, "degree F")
+
+def convert(celcius):
+    return (celcius * 9 / 5 ) + 32
+
+main()
