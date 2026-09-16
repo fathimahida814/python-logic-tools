@@ -1,26 +1,23 @@
-# Python Logic Tools
+# Python logic tools
 
-A collection of beginner-friendly Python tools I built while learning programming logic.
+A collection of beginner-friendly Python tools I bulit while learning programming logic.
 
 ## Projects
 
-### 1. Shop Billing Tool
-A simple tool that calculates total bill with discount.
+### 1. [Shop Billing Tool](./shop-billing-tool/)
+Calculates total bill with discount
 - Takes product price and quantity
-- Calculates total amount
-- Applies 10% discount if bill > 2000
-- Concepts: input(), if-else, calculations
+- 10% discount if bill > 2000
 
-### 2. Student Grade Calculator
-Calculates total, average and grade for 5 subjects.
-- Subjects: Math, English, Science, Economics, Malayalam
-- Calculates Total and Average 
-- Assigns Grade: A(90+), B(75+), C(50+), Fail(<50)
-- Concepts: input(), variables, if-elif-else
+### 2. [Grade Calculator](./grade-calculator/)
+Calculates Grade A/B/C from marks
 
-#How to Run
-Python shop_billing_tool.py
-Python grade_calculator.py
+### 3. [Password Checker](./password-checker/)
+Checks if password is Strong or Weak
 
-## Author
-Fathima Hida - Learning Python & Building Logic
+### 4. [Expense Tracker](./expense-tracker/)
+Tracks daily expenses and saves to CSV
+
+## How to Run
+cd folder-name
+python file-name.py
